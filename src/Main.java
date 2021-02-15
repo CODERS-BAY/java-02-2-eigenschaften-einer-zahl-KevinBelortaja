@@ -23,10 +23,10 @@ public class Main {
         }
 
         if (number == luckynumber) {
-            System.out.println();
+            System.out.println("Die Zahl ist meine Glückszahl!");
         }
 
-        if (number >= 10 && number < 100) {
+        if (number >= 10 && number < 100 || number <= -10 && number > -100) {
             System.out.println("Die Nummer ist zweistellig");
         }
 
